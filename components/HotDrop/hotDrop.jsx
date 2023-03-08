@@ -2,6 +2,7 @@ import SuperHotDrops from "../../constants/sellNFT";
 // import { Button } from '../index'
 import { useMediaQuery } from "react-responsive";
 import { useCallback, useState } from "react";
+import Image from "next/image";
 
 const SuperHotDrop = () => {
   const isBigScreen = useMediaQuery({ query: "(min-width: 768px)" });
@@ -9,7 +10,7 @@ const SuperHotDrop = () => {
   function cards(item) {
     return (
       <div className="flex flex-col items-start p-2.5 gap-2.5 bg-white rounded-lg">
-        <img
+        <Image
           src={item.image}
           height={262}
           width={isBigScreen ? 265 : 307}
@@ -21,7 +22,7 @@ const SuperHotDrop = () => {
           </div>
           <div className="flex flex-row justify-between w-full">
             <div className="flex flex-row flex-none gap-1.5">
-              <img src="/ETH.svg" width={21} height={21} alt="eth value" />
+              <Image src="/ETH.svg" width={21} height={21} alt="eth value" />
               {/*<Eth width={21} height={21} />*/}
               <div className="flex-none font-medium text-[12px] leading-[15px] -tracking-[.02em] text-[#6AD38F]">
                 {item.price}

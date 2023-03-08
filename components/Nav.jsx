@@ -41,7 +41,7 @@ const Nav = () => {
   return (
     <div className="bg-[#110929] h-[80px] z-50 fixed top-0 right-0 left-0 transition-colors delay-100">
       <nav className="container mx-auto px-6 xl:px-0 px-[24px] md:px-[40px] lg:px-[60px] pt-[15px] flex flex-row justify-between items-center">
-        <Link href="/" legacyBehavior>
+        <Link href="/" passHref legacyBehavior>
           <Image
             className="py-[19.5px] hidden md:block cursor-pointer"
             src="/ApolloNFT.svg"
@@ -81,7 +81,7 @@ const Nav = () => {
                   <div
                     className={`flex flex-col items-center justify-center w-full lg:w-[80px] whitespace-nowrap cursor-pointer`}
                   >
-                    <Link href="/users" legacyBehavior>
+                    <Link href="/users" passHref legacyBehavior>
                       <div
                         className="relative link mb-6 lg:mb-0 lg:after:hover:w-full lg:after:hover:left-0 lg:font-bold
                           after:bottom-0 lg:after:-bottom-[28px]"
@@ -104,7 +104,7 @@ const Nav = () => {
               </div>
             </div>
           </div>
-          <Link href="#footer">
+          <Link href="#footer" passHref>
             <div className="hidden lg:grid text-white text-[16px] leading-[19px] w-[149px] h-[51px] rounded-[66px] flex justify-center items-center btn-gradient">
               Contact Us
             </div>

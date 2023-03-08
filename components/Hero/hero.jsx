@@ -72,21 +72,21 @@ const Hero = () => {
         {/*</div>*/}
 
         <div className="relative h-[440px] lg:h-auto top-[105px] lg:top-0 right-0">
-          <img
+          <Image
             className="rounded-3xl relative z-30 mx-auto"
             src="/image_1.png"
             width={lg ? 388 : 240}
             height={lg ? 463 : 287}
             alt="/image_1.png"
           />
-          <img
+          <Image
             className="rounded-3xl absolute -top-[30px] sm:-top-[30px] md:-top-[30px] xl:top-[-55px] sm:left-[130px] md:left-[200px] lg:left-[240px] left-0 xl:left-[-60px]"
             src={"/image_2.png"}
             width={lg ? 366 : 227}
             height={lg ? 437 : 271}
             alt={"/image_2.png"}
           />
-          <img
+          <Image
             className="rounded-3xl absolute top-[75px] sm:top-[65px] md:top-[65px] lg:top-[90px] xl:top-[115px] right-0 sm:right-[130px] md:right-[200px] lg:right-[250px] xl:right-[-60px]"
             src={"/image_3.png"}
             width={lg ? 341 : 211}

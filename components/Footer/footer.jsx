@@ -37,7 +37,7 @@ const Footer = () => {
       <div className="pb-[19px] text-white">
         <div className="gap-[64px] sm:gap-[125px] flex flex-col md:flex-row pb-[39px]">
           <div className="flex flex-col items-start gap-[17px]">
-            <Link href="/" legacyBehavior>
+            <Link href="/" passHref legacyBehavior>
               <div className="font-bold text-[50.52px] leading-[61px]">
                 <span className="header-logo-gradient">Apollo</span>
                 <span className="text-[#1C51FE]">NFT</span>
@@ -49,7 +49,15 @@ const Footer = () => {
             </div>
             <div className="flex flex-row items-center gap-[24px]">
               {social.map(({ src, alt }, index) => {
-                return <Image src={src} alt={alt} width={24} height={24} />;
+                return (
+                  <Image
+                    src={src}
+                    alt={alt}
+                    width={24}
+                    height={24}
+                    key={index}
+                  />
+                );
               })}
             </div>
           </div>
