@@ -1,0 +1,20 @@
+[
+    {
+        "firstName": "Prisacari",
+        "lastName": "Andrei",
+        "username": "prisacariandrei0007@gmail.com",
+        "hash": "$2a$10$VJ58HOWDSXQ1pfmpOLv3yeQe0aI0G3z08CUFYxuR4MbBDsmZFMWgG",
+        "id": 3,
+        "dateCreated": "2023-03-08T11:52:46.655Z",
+        "dateUpdated": "2023-03-08T11:52:46.655Z"
+    },
+    {
+        "firstName": "admin",
+        "lastName": "admin",
+        "username": "admin",
+        "hash": "$2a$10$rOznx9XN.cOZPw7UqiNIW.7c.GFaSczPtD/o81A9rD/jzKyrqKwmm",
+        "id": 5,
+        "dateCreated": "2023-03-08T11:55:08.466Z",
+        "dateUpdated": "2023-03-08T11:55:08.466Z"
+    }
+]

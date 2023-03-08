@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/********************************/
+a {
+    cursor: pointer;
+
+}
+
+.app-container {
+    min-height: 350px;
+}
+
+/********************************/
+
+
+.btn-gradient {
+    background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+}
+
+.focus-btn-gradient:focus {
+    background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+}
+
+.btn-description {
+    background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+}
+
+body {
+    background: #110929;
+    color: white;
+}
+
+.ellipse-header {
+    background: rgba(214, 34, 218, 0.59);
+    filter: blur(247px);
+}
+
+.color-title {
+    background: linear-gradient(to right, rgba(141, 28, 254, 1), rgba(0, 56, 237, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-logo-gradient {
+    background: linear-gradient(101.54deg, #b235ff -9.3%, #001447 70.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.animate {
+    transition: transform .7s ease-in-out;
+}
+.animate:hover {
+    transform: rotate(360deg);
+}
