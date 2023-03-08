@@ -7,7 +7,9 @@
 /********************************/
 a {
     cursor: pointer;
-
+    /*text-underline: none;*/
+    text-decoration: none;
+    outline: none;
 }
 
 .app-container {
@@ -15,11 +17,27 @@ a {
 }
 
 /********************************/
+*{
 
+    outline: none;
+}
+button {
+    outline: none;
+}
 
 .btn-gradient {
     background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
 }
+
+.btn-gradient:focus {
+    border: none;
+    outline: none;
+}
+.btn-gradient:active {
+    border: none;
+    outline: none;
+}
+
 
 .focus-btn-gradient:focus {
     background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);

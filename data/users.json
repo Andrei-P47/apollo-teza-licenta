@@ -16,5 +16,23 @@
         "id": 5,
         "dateCreated": "2023-03-08T11:55:08.466Z",
         "dateUpdated": "2023-03-08T11:55:08.466Z"
+    },
+    {
+        "firstName": "sereoga",
+        "lastName": "cumatru",
+        "username": "sereoga",
+        "hash": "$2a$10$gxpesy8125hV7qJYz3ci0O3PxeVEEiZd3KsaEl/6SS/cdXs8vyXtq",
+        "id": 6,
+        "dateCreated": "2023-03-08T14:45:36.473Z",
+        "dateUpdated": "2023-03-08T14:45:36.473Z"
+    },
+    {
+        "firstName": "andreea",
+        "lastName": "1",
+        "username": "ANDREEA",
+        "hash": "$2a$10$W2vbf9pbOHkO5mo/1o0l0eFhpK.4qrWzXjteEDTDuXDri2GdshFnW",
+        "id": 7,
+        "dateCreated": "2023-03-08T21:36:44.184Z",
+        "dateUpdated": "2023-03-08T21:36:44.184Z"
     }
 ]

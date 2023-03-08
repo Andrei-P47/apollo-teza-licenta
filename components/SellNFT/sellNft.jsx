@@ -23,15 +23,15 @@ const SellNFT = () => {
     ];
 
     return (
-        <div className="px-[24px] md:px-[40px] lg:px-[60px] xl:px-[120px] pt-[95px] pt-[150px] flex flex-col gap-[34px]">
+        <div className="container mx-auto px-6 xl:px-0 px-[24px] md:px-[40px] lg:px-[60px] pt-[95px] pt-[150px] flex flex-col gap-[34px]">
             <div className="font-bold text-[32px] md:text-[48px] leading-[58px] -tracking-[0.02em] mt-20 md:mt-0">
                 Create Your Sell NFT
             </div>
-            <div className="grid md:grid-cols -1 md:grid-cols-2 2xl:grid-cols-3 gap-[16px]">
+            <div className="grid md:grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-4">
                 {cards.map(({ src, title, description }, index) => {
                     return (
                         <div
-                            className="flex flex-col gap-[13px] bg-[#251163] p-[16px] rounded-[14px]"
+                            className="flex flex-col gap-[13px] bg-[#251163] p-4 rounded-[14px] items-start"
                             key={`${index}`}
                         >
                             <Image src={src} alt="logo img" width={48} height={48} />

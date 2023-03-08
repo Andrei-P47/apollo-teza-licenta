@@ -35,12 +35,12 @@ const TheWeek = () => {
     ];
 
     return (
-        <div className="px-[24px] md:px-[40px] lg:px-[60px] xl:px-[120px] pt-[95px]">
+        <div className="container mx-auto px-6 xl:px-0 px-[24px] md:px-[40px] lg:px-[60px] pt-[95px]">
             <div className="flex flex-col gap-[34px]">
                 <div className="font-bold text-[32px] md:text-[48px] leading-[58px] -tracking-[0.02em]  ">
                     Creator of The Week
                 </div>
-                <div className="grid md:grid-cols -1 md:grid-cols-2 2xl:grid-cols-3 gap-[21px]">
+                <div className="grid md:grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-[21px]">
                     {cards.map(({ src, name, price }, index) => {
                         return (
                             <div
@@ -48,7 +48,7 @@ const TheWeek = () => {
                                 key={`${index}`}
                             >
                                 <Image src={src} alt="person" width={61} height={61} />
-                                <div className="flex flex-row gap-[13px]">
+                                <div className="flex flex-col gap-[13px]">
                                     <div className="font-semibold text-[24px] leading-[26px]">Eka Prakasa</div>
                                     <div className="text-[20px] leading-[28px]">13.2K</div>
                                 </div>

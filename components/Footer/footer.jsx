@@ -30,11 +30,14 @@ const Footer = () => {
   ];
 
   return (
-    <div className="px-[24px] md:px-[40px] lg:px-[60px] pt-[64px] xl:pt-[120px]">
+    <div
+      id="footer"
+      className="container mx-auto px-6 xl:px-0  px-[24px] md:px-[40px] lg:px-[60px] pt-[64px] xl:pt-[120px]"
+    >
       <div className="pb-[19px] text-white">
         <div className="gap-[64px] sm:gap-[125px] flex flex-col md:flex-row pb-[39px]">
           <div className="flex flex-col items-start gap-[17px]">
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <div className="font-bold text-[50.52px] leading-[61px]">
                 <span className="header-logo-gradient">Apollo</span>
                 <span className="text-[#1C51FE]">NFT</span>
